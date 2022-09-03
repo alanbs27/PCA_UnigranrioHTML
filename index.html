@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Sustentabilidade Ambiental</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+     <div class="slide" id="sss">
+		<img src="imagens\energia2.jpg">
+	 </div>
+	 <script>
+	    var imge = document.getElementById('sss');
+		  
+		var image = ['imagens/agua2.jpg', 'imagens/foto5.jpg', 'imagens/reciclagem.jpg', 'imagens/foto4.jpg', 'imagens/energia2.jpg'];
+		  
+		var x = 0;
+		  
+		function slider(){
+			if (x < image.length){
+					
+				x = x+1;
+					 
+			}else{
+				x = 1;
+		}
+		imge.innerHTML = "<img src="+image[x-1]+">";
+						
+}
+		setInterval(slider, 2000);
+	 
+	 
+	 </script>
+	<header>
+	   <img src="imagens\foto1.jpg" class="perfil_imagem">
+	   <nav> 
+          <ul>	
+		    <li><a href="#inicio">Início</a></li>
+		    <li><a href="#Exemplos">Exemplos</a></li>
+            <li><a href="agua.html" target="_blank">Água</a></li>
+			<li><a href="energia.html"target="_blank">Energia</a></li>
+			<li><a href="reciclagem.html"target="_blank">Reciclagem</a></li>
+			<li><a href="reflorestamento.html"target="_blank">Reflorestamento</a></li>
+			
+		  </ul>
+	   </nav>
+    </header>
+     <main>
+		
+	    <section id="inicio">
+		<div>
+		    <img src="imagens\foto2.jpg" class="perfil_imagem">
+		    <h1>Sustentabilidade Ambiental</h1>
+               <h3>Conceitos e Objetivos</h3>
+			    <p id="ini"><b>O termo sustentabilidade está ligado diretamente à ideia de utilizar algo,<br/>
+                      sem que com isso seja esgotada sua capacidade de ser consumida por outras pessoas.<br/>  
+                      A sustentabilidade ambiental também tem esse significado, porém de maneira mais complexa,<br/>  
+                      por estar ligada ao meio ambiente e a todas as coisas o englobam.<br/>
+                      O conceito de sustentabilidade ambiental define a maneira de que nós, seres humanos,<br/>
+                      utilizamos os bens e recursos naturais, para suprir nossas necessidades, sem que com isso exista o esgotamento<br/> 
+                      e haja suprimento para as próximas gerações. É simples: ser sustentável é utilizar e cuidar para que não falte ao<br/> 
+                      próximo que vai utilizar, formando assim uma cadeia solidária que busca preservar da melhor maneira possível o meio ambiente.</p></b>
+				</p>
+		</div>
+                 
+	    </section>
+	    <section id="Exemplos">
+                <div class="conteiner">
+                   				 			 
+					 <img src="imagens\agua3.jpg"  onclick="lagua()"  class="perfil" id="imgi" onMouseOver="mostrarElemento('ag', 'inline');"
+						onMouseOut="mostrarElemento('ag', 'none');">
+						<div id="ag">clique na imagem<b/></div> 
+                   	 <img src="imagens\energia.jpg" onclick="lenergia()" class="perfil" id="imgi" onMouseOver="mostrarElemento('ag', 'inline');"
+						onMouseOut="mostrarElemento('ag', 'none');">
+						<div id="ag">clique na imagem<b/></div> 
+                     <img src="imagens\reciclagem.jpg" onclick="lreciclagem()" class="perfil" id="imgi"  onMouseOver="mostrarElemento('ag', 'inline');"
+						onMouseOut="mostrarElemento('ag', 'none');">
+						<div id="ag">clique na imagem<b/></div> 
+                     <img src="imagens\reflor.jpg" onclick="lreflor()" class="perfil" id="imgi" onMouseOver="mostrarElemento('ag', 'inline');"
+						onMouseOut="mostrarElemento('ag', 'none');">
+						<div id="ag">clique na imagem<b/></div> 
+                     <h2>Alguns exemplos de sustentabilidade ambiental</h2>
+                     <b><p>Reutilização da água da chuva, energia renovável, reciclagem do lixo e reflorestamento</b></p>
+                     <b><p>Clique nas imagens para saber mais</a></p>
+                     <p id="msg"></p>
+                     <button type="button" onclick="mostraMensagem()">exibir mensagem</button>
+                                                                   
+		
+
+                </div>
+                
+        </section>                  
+     </main>
+	 <footer>
+		Todos os direitos reservados
+	 </footer>
+     </body>
+</html>

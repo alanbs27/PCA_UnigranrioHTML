@@ -1,0 +1,184 @@
+#aguab {
+    margin:10px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/foto4.jpg');
+           
+}
+#energiab {
+    margin:10px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/foto3.jpg');
+           
+}
+
+#reciclab {
+    margin:10px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/reciclagem.jpg');
+           
+}
+
+#reflob {
+    margin:10px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/foto2.jpg');
+           
+}
+#aguah {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/agua2.jpg');
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#energiah  {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/energia2.jpg');
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#reciclah  {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/reciclagem2.jpg');
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#refloh  {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imagens/foto5.jpg');
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div {
+    
+   
+    margin: auto;
+    border: 1px solid black;
+    width: 1000px;
+    height: 1000px
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+	
+}
+h1 {
+    font-size: 2em; 
+    text-align: center; 
+}
+p {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+#mn ul {
+    padding: 0; 
+	
+}	
+#mn li {
+	 margin-left: 60px;
+	 display: inline;
+}
+#mn a {
+	text-decoration: none;
+    color:green;
+    font-size: 40px;
+    font-style:normal;
+	width:300px;
+	font-family:Fantasy;
+}
+
+#ene1 {
+	height: auto; 
+    width: auto; 
+    max-width: 900px; 
+    max-height: 700px;
+}
+
+#en ul {
+    padding: 0; 
+	
+}	
+#en li {
+	 margin-left: 60px;
+	 display: inline;
+}
+#en a {
+	text-decoration: none;
+    color:blue;
+    font-size: 60px;
+    font-style:normal;
+	width:300px;
+	font-family:Fantasy;
+}
+
+#au1 ul {
+    padding: 0; 
+	
+}	
+#au1 li {
+	 margin-left: 60px;
+	 display: inline;
+}
+#au1 a {
+	text-decoration: none;
+    color:blue;
+    font-size: 60px;
+    font-style:normal;
+	width:300px;
+	font-family:Fantasy;
+}
+
+#ref1 ul {
+    padding: 0; 
+	
+}	
+#ref1 li {
+	 margin-left: 60px;
+	 display: inline;
+}
+#ref1 a {
+	text-decoration: none;
+    color:green;
+    font-size: 60px;
+    font-style:normal;
+	width:300px;
+	font-family:Fantasy;
+}
+#ref2 {
+	height: auto; 
+    width: auto; 
+    max-width: 900px; 
+    max-height: 700px;
+}
+
+	
+
+
